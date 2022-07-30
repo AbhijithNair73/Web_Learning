@@ -1,2 +1,2 @@
-17/07/2022 	 11:29:46	user.info	Server running on PORT:9500
-17/07/2022 	 11:29:46	user.info	Welcome to log app
+18/07/2022 	 12:26:02	user.info	Welcome to log app
+18/07/2022 	 12:26:02	user.info	Server running on PORT:9500

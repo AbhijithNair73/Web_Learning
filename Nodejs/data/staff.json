@@ -1,0 +1,106 @@
+[
+    {
+        "name": "Rakesh Agrawal",
+        "age": 30,
+        "company": "Netwire",
+        "language": "react angular java c++",
+        "work experience": "5yrs"
+
+    },
+    {
+        "name": "Pratik Agrawal",
+        "age": 25,
+        "company": "Netflix",
+        "language": "react python c++",
+        "work experience": "2yrs"
+
+    },
+    {
+        "name": "Dhairya Patel",
+        "age": 32,
+        "company": "facebook",
+        "language": "python c++",
+        "work experience": "5yrs"
+
+    },
+    {
+        "name": "Sachin Mishra",
+        "age": 33,
+        "company": "Google",
+        "language": "react",
+        "work experience": "6yrs"
+
+    },
+    {
+        "name": "Vikas Dubey",
+        "age": 50,
+        "company": "Amazon",
+        "language": "c++",
+        "work experience": "8yrs"
+
+    },
+    {
+        "name": "Ankit Sharma",
+        "age": 45,
+        "company": "Meta",
+        "language": "python",
+        "work experience": "7yrs"
+
+    },
+    {
+        "name": "Manish Tyagi",
+        "age": 24,
+        "company": "Amazon",
+        "language": "angular java",
+        "work experience": "1yrs"
+
+    },
+    {
+        "name": "Suyash Bansal",
+        "age": 31,
+        "company": "wallmart",
+        "language": "react angular",
+        "work experience": "5yrs"
+
+    },
+    {
+        "name": "Mithilesh Tripathi",
+        "age": 30,
+        "company": "Netwire",
+        "language": "java c++",
+        "work experience": "5yrs"
+
+    },
+    {
+        "name": "Darshan Rawal",
+        "age": 28,
+        "company": "Netwire",
+        "language": "react python",
+        "work experience": "3yrs"
+
+    },
+    {
+        "name": "Sameer Reddy",
+        "age": 27,
+        "company": "Netflix",
+        "language": "java c++",
+        "work experience": "2yrs"
+
+    },
+    {
+        "name": "Omprakash shetty",
+        "age": 50,
+        "company": "Meta",
+        "language": "react angular python",
+        "work experience": "9yrs"
+
+    },
+    {
+        "name": "Viren Pandey",
+        "age": 55,
+        "company": "Amazon",
+        "language": "java",
+        "work experience": "10yrs"
+
+    }
+]

@@ -24,6 +24,7 @@ const server = http.createServer((req, res) => {
   let contentType = "text/html";
   let extension = path.extname(req.url);
   if(req.url == '/') req.url = "/index.html"
+  
   switch (extension) {
     case ".css":
       contentType = "text/css";
@@ -37,7 +38,10 @@ const server = http.createServer((req, res) => {
       contentType = "application/json";
       break;
 
-    case ".jpeg" || ".jpg":
+    // case (".jpeg" || ".jpg" || ".png"):
+    case ".jpeg":
+    case ".png":
+    case ".jpg":
       contentType = "image/jpeg";
       break;
 
@@ -53,8 +57,19 @@ const server = http.createServer((req, res) => {
       contentType = "text/html";
       break;
   }
+  console.log('content type ', contentType);
+  console.log('extension ',extension);
+  
   res.setHeader("Content-Type", contentType);
-  const filepath = path.join(__dirname, "view", req.url);
+  let filepath;
+  if(contentType == "text/html")
+  {
+    filepath = path.join(__dirname, "view", req.url);
+  } 
+  else
+  {
+    filepath = path.join(__dirname, req.url);
+  }
   const exists = fs.existsSync(filepath);
   console.log(filepath);
   console.log("exists = ",exists);
